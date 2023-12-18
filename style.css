@@ -1,0 +1,22 @@
+
+ .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.logo img{
+   
+   width: 200px;
+   height: 70px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.9s ease; 
+   
+}
